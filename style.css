@@ -4,7 +4,13 @@
 h1{
     font-size: 40px;
 }
-
+.top{
+    height: 500px;
+    border: 1px solid red;
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
 .name-heighlight{
     color: orange;
 }
@@ -12,9 +18,17 @@ h1{
     width: 40%;
     margin-left: 4%;
     float: left;
-   
+}
+.half-width:first-child{
+    margin-top: 20px;
 }
 .half-width img{
     width: 100%;
-
+}
+.half-width a{
+    color: wheat;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,rgb(221, 109, 89),tomato);
+    padding: 10px 20px;
+    font-weight: 700;
 }
