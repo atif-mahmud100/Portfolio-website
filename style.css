@@ -1,15 +1,20 @@
 *{
     font-family: Poppins;
+  
 }
 h1{
     font-size: 40px;
 }
+
 .top{
     height: 500px;
-    border: 1px solid red;
     background: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+img{
+    margin: 0;
+    padding: 0;
 }
 .name-heighlight{
     color: orange;
@@ -25,10 +30,18 @@ h1{
 .half-width img{
     width: 100%;
 }
-.half-width a{
+.btn{
     color: wheat;
     text-decoration: none;
     background-image: linear-gradient(45deg,rgb(221, 109, 89),tomato);
     padding: 10px 20px;
     font-weight: 700;
+    border-radius: 5px;
+}
+.middle{
+    height: 500px;
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
